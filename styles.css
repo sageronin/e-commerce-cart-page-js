@@ -1,0 +1,41 @@
+/* Font - Google Sans */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #161616;
+    font-family: "Google Sans", sans-serif;
+}
+
+.container {
+    background-color: #414247;
+    max-width: 600px;
+    min-width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    justify-self: center;
+    margin-bottom: 10px;
+    color: rgb(59, 255, 154);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: rgb(230, 243, 255);
+}
+
+p {
+    color: rgb(206, 214, 222);
+}
+
+.hidden {
+    display: none;
+}
